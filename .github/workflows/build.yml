@@ -10,10 +10,11 @@ jobs:
       with:
         java-version: "17"
         distribution: "temurin"
-    - name: Build with Gradle
-      run: |
-        chmod +x gradlew
-        ./gradlew assembleDebug
+    - - name: Build with Gradle
+  run: |
+    cd SuperFlixAndroidTV_multicat_project  # ou o nome da pasta principal
+    chmod +x gradlew
+    ./gradlew assembleDebug --stacktrace
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
