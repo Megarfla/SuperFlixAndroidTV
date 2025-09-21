@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuperFlix</string>
+    <string name="label_filmes">Filmes</string>
+    <string name="label_series">Séries</string>
+    <string name="label_animes">Animes</string>
+    <string name="label_tv_vivo">TV ao Vivo</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titleApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SuperFlix"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/labelFilmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filmes"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerFilmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="afterDescendants"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/labelSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Séries"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="afterDescendants"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/labelAnimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Animes"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerAnimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="afterDescendants"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:clipToPadding="false" />
+
+        <TextView
+            android:id="@+id/labelTvVivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TV ao Vivo"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:paddingStart="12dp"
+            android:paddingTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerTvVivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:descendantFocusability="afterDescendants"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:clipToPadding="false" />
+
+    </LinearLayout>
+</ScrollView>
